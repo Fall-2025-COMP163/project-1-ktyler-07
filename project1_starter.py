@@ -30,8 +30,8 @@ def create_character(name, character_class):
     # TODO: Implement this function
     # Remember to use calculate_stats() function for stat calculation
     if character_class not in class_modifiers:
-    print(f"Error: {character_class} is not a valid class")
-    return None
+        print(f"Error: {character_class} is not a valid class")
+        return None
 
     level = 1
     gold = 100
