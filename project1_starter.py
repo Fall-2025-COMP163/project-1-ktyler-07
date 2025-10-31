@@ -220,7 +220,7 @@ if __name__ == "__main__":
     save_character(char, "my_character.txt")
     loaded_hero = load_character("my_character.txt")
     display_character(loaded_hero)
-    # Example usage:
+    # Example usage
     # char = create_character("TestHero", "Warrior")
     # display_character(char)
     # save_character(char, "my_character.txt")
