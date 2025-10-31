@@ -97,3 +97,7 @@ Modifying protected files will result in automatic academic integrity violation
 Implementation (70%): Function correctness, file operations, error handling
 
 Interview (30%): Code explanation and live coding challenge
+
+# Added gold calculation system
+
+Sets gold equal to 100 at the beginning, and then increase by 100 every time the character levels up
