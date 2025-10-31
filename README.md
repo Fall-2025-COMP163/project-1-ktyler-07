@@ -117,7 +117,11 @@ N/A
 # How to run 🏃‍♂️
 
 Example usage:
-# char = create_character("TestHero", "Warrior")
-# display_character(char)
-# save_character(char, "my_character.txt")
-# loaded = load_character("my_character.txt")
+
+char = create_character("TestHero", "Warrior")
+
+display_character(char)
+
+save_character(char, "my_character.txt")
+
+loaded = load_character("my_character.txt")
