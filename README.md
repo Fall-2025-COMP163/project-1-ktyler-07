@@ -110,14 +110,14 @@ When I made my stat formulas, I made sure every character has some sort of benef
 
 Sets gold equal to 100 at the beginning, and then increase by 100 every time the character levels up
 
-# AI Usage
+# AI Usage 🤖
 
 N/A
 
-# How to run
+# How to run 🏃‍♂️
 
 Example usage:
-char = create_character("TestHero", "Warrior")
-display_character(char)
-save_character(char, "my_character.txt")
-loaded = load_character("my_character.txt")
+# char = create_character("TestHero", "Warrior")
+# display_character(char)
+# save_character(char, "my_character.txt")
+# loaded = load_character("my_character.txt")
