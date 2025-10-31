@@ -98,6 +98,26 @@ Implementation (70%): Function correctness, file operations, error handling
 
 Interview (30%): Code explanation and live coding challenge
 
-# Added gold calculation system
+# Game Concept 🎮
+
+My RPG world is about an 8-bit adventure through the forest. You've got to use your imagination though, since there's no visual aspect to it.
+
+# Design Choices 🎨
+
+When I made my stat formulas, I made sure every character has some sort of benefit to using them. I wanted both the warrior and wizard to have high stats in their specific specialty. I made it so magic increases more than strength because thats what I believe it should be. Casting spells requires a lot of mana (though I didn't use mana in the code) compared to the low cost of hitting enemies (the non-existent ones).
+
+# Bonus Creative Features ➕
 
 Sets gold equal to 100 at the beginning, and then increase by 100 every time the character levels up
+
+# AI Usage
+
+N/A
+
+# How to run
+
+Example usage:
+char = create_character("TestHero", "Warrior")
+display_character(char)
+save_character(char, "my_character.txt")
+loaded = load_character("my_character.txt")
